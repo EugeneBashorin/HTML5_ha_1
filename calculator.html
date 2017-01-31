@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Калькулятор</title>
+      <meta charset="utf-8" />
+   </head>
+   <body>
+		<header>
+			<a href="index.html"> <img src="Image/webLogo.png" alt="webLogo" height="100" /></a>
+			<h1>Основы Web-технологий</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="webTech.html">Web-технологии</a>
+						<ul>
+							<li><a href="html5.html">HTML5</a></li>
+							<li><a href="css3.html">CSS3</a></li>
+							<li><a href="javaScript.html">JavaScript</a></li>
+						</ul>
+					</li>
+					<li><a href="calculator.html">Калькулятор</a></li>
+					<li><a href="test.html">Тест</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<form name="calculator" >
+				<table border="1">
+					<tr>
+						<td colspan="5"><input type="text" name="resultDisplay"></td>
+					</tr>
+					<tr>
+						<td><button type="button" name="sevenButton" >7</button></td>
+						<td><button type="button" name="eightButton" >8</button></td>
+						<td><button type="button" name="nineButton" >9</button></td>
+						<td><button type="button" name="divideButton" >/</button></td>
+						<td><button type="reset" name="clearButton" >C</button></td>
+					</tr>
+					<tr>
+						<td><button type="button" name="fourButton" >4</button></td>
+						<td><button type="button" name="fiveButton" >5</button></td>
+						<td><button type="button" name="sixButton" >6</button></td>
+						<td><button type="button" name="multiplyButton" >*</button></td>
+						<td><button type="button" name="plusMinusButton" >&#177;</button></td>
+					</tr>
+					<tr>
+						<td><button type="button" name="oneButton" >1</button></td>
+						<td><button type="button" name="twoButton" >2</button></td>
+						<td><button type="button" name="threeButton" >3</button></td>
+						<td><button type="button" name="minusButton" >-</button></td>
+						<td rowspan="2"><button type="button" name="resButton" >=</button></td>
+					</tr>
+					<tr>
+						<td colspan="2"><button type="button" name="zeroButton" >0</button></td>
+						<td><button type="button" name="dotButton" >.</button></td>
+						<td><button type="button" name="plusButton" >+</button></td>
+					</tr>
+				</table>
+			</form>
+		</main>
+		<footer>
+			<address>
+				<a href="mail@mail">Пишите: mail@mail</a><br />
+			</address>
+			<span>&copy; Фамилия И.О., год</span>
+		</footer>
+   </body>
+</html>
